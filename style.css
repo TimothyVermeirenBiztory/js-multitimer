@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#canvas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 24pt;
+    text-align: center;
+}
+
+#timers {
+    /* border: solid 1px #333; */
+    border-right: solid 1px #333;
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    min-height: 125px;
+    justify-content: flex-start;
+}
+
+#controls {
+    /* border: solid 1px #333; */
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    min-height: 125px;
+    justify-content: flex-start;
+}
+  
+.timer {
+    /* background-color: #6666cc; */
+    /* We'll randomize bgcolor */
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    color: #363636;
+}
+
+.control {
+    background-color: #6666cc;
+    border: 1px solid white;
+    margin-left: 5px;
+    margin-top: 2px;
+    padding: auto;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
